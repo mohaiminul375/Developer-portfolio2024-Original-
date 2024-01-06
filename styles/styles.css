@@ -215,17 +215,50 @@ main section {
 }
 
 .resume-item-sub-title {
-    color:  #757575;
+    color: #757575;
     font-size: 20px;
     font-weight: 600;
 }
-.resume-item-description{
+
+.resume-item-description {
     margin: 20px 0px 30px;
     color: #757575;
     font-size: 16px;
     font-weight: 400;
 }
-.download-cv{
+
+.download-cv {
     margin-top: 50px;
     text-align: center;
+}
+
+/* footer */
+footer {
+    margin-top: 130px;
+    padding: 130px 230px;
+    background: #FFF8F3;
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+}
+.footer-column{
+    width: 50%;
+}
+.social-icon{
+    margin-top: 20px;
+    text-align: center;
+}
+.social-icon a{
+    margin-right: 25px;
+}
+.contact input[type='text'], input[type='email'], textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 25px;
+    padding: 18px 30px;
+    border-radius: 5px;
+    background: #FFF;
+    border: 0;
+    font-size: 16px;
+    color: #757575;
 }
